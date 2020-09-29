@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #272727;
 }
 
 .App-logo {
@@ -35,4 +36,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+*{
+  font-family: 'Questrial', sans-serif;
+
+}
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+}
+p{
+  font-size: 1.2rem;
+}
+.styledLink{
+  text-decoration: none;
+  color: aquamarine;
+  font-size: 1.5rem;
+  color: #272727;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #272727;
+}
+#pa {
+  /* padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%; */
+  color: #E5E059;
+}
+body{
+  background-color: #272727;
+  width: 100%;
+  height: 100%;
+}
+.styledLink:hover{
+  color: #009FB7;
+}
+a:hover{
+  color: #009FB7;
 }
